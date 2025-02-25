@@ -1,0 +1,7 @@
+*
+!.gitignore
+!account.html
+!styles/
+!styles/student.css
+!js/
+!js/members.js
