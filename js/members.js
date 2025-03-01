@@ -1,6 +1,6 @@
 function memberThumbnail(member) {
   const thumbnail = `
-  <div class="col-12 ???" id="${member.eid}">
+  <div class="col-12 col-xs-6 col-md-4 col-lg-3" id="${member.eid}">
     <header class="???">
       <h4 class="???">${member.first_name} ${member.last_name}</h4>
       <p class="???">
