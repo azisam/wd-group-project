@@ -16,17 +16,17 @@ function memberThumbnail(member) {
                   ./img/informative/member/${member.id}/webp/${member.id}_512.webp 512w"
           sizes="(min-width: 996px) calc((100vw - 20vw - (3 * 10px) - (8 * 0px)) / 4),
                  (min-width: 768px) calc((100vw - 19vw - (2 * 10px) - (6 * 0px)) / 3),
-                 (min-width: 480px) calc((100vw - 15px - (1 * 10px) - (4 * 0px)) / 2),
-                                    calc((100vw - 15px - (0 * 10px) - (2 * 0px)) / 1)">
+                 (min-width: 480px) calc((100vw - (2 * 15px) - (1 * 10px) - (4 * 0px)) / 2),
+                                    calc((100vw - (2 * 15px) - (0 * 10px) - (2 * 0px)) / 1)">
         <source
           type="image/jpg"
           srcset="./img/informative/member/${member.id}/jpg/${member.id}_256.jpg 256w,
                   ./img/informative/member/${member.id}/jpg/${member.id}_384.jpg 384w,
                   ./img/informative/member/${member.id}/jpg/${member.id}_512.jpg 512w"
-          sizes="(min-width: 996px) ,
-                 (min-width: 768px) ,
-                 (min-width: 480px) ,
-                                    ">
+          sizes="(min-width: 996px) calc((100vw - 20vw - (3 * 10px) - (8 * 0px)) / 4),
+                 (min-width: 768px) calc((100vw - 19vw - (2 * 10px) - (6 * 0px)) / 3),
+                 (min-width: 480px) calc((100vw - (2 * 15px) - (1 * 10px) - (4 * 0px)) / 2),
+                                    calc((100vw - (2 * 15px) - (0 * 10px) - (2 * 0px)) / 1)">
         <img 
           class="???"
           src="./img/informative/member/${member.id}/jpg/${member.id}_512.jpg" 
